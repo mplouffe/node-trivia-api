@@ -7,4 +7,4 @@ app.get('/', function(req, res){
   res.send("Running...");
 });
 questionController(app);
-app.listen(port, server_ip_address);
+app.listen(port);
